@@ -1,0 +1,47 @@
+.landing{
+  margin:0 50px ;
+  background-image:linear-gradient(to right, rgba(11, 8, 44, 0.393), rgba(12, 10, 46, 0.332)), url(../../images/home-bg.jpg);
+  padding: 60px;
+  background-position: center;
+  color: white;
+  max-height: 350px;
+  border-radius: 0 0 10px 10px;
+
+  .landing-text {
+    h3{
+      font-size: 50px;
+      font-weight: bold;
+    }
+    p{
+      color: #d1cfcf;
+      font-size: 20px;
+    }
+  }
+
+  .landing-search {
+
+    input {
+      padding: 10px 200px 10px 10px;
+    }
+
+    .btn {
+      padding: 10px 30px;
+      margin-left: 5px;
+      border-radius: inherit;
+    }
+
+
+  }
+}
+
+@media(max-width:767px){
+  .landing {
+    margin: 0;
+
+  .landing-search {
+      input {
+        padding: 10px;
+      }
+    }
+  }
+}
