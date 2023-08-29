@@ -1,7 +1,7 @@
 {
   "name": "movie",
   "version": "0.1.0",
-  "homepage": "https://Hamada-Elsayed.github.io/oh",
+  "homepage": "https://Hamada-Elsayed.github.io/movie",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
