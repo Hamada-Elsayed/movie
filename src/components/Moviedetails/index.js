@@ -25,9 +25,6 @@ const Moviedetails = () => {
   return (
     <div>
       <Container className='container'>
-
-
-
           <div key={movie.id} className='details-page'>
           <img src={`https://image.tmdb.org/t/p/w400/`+ movie.poster_path} alt='#' />
           <div className='midell'>
